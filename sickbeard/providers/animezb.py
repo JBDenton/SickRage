@@ -43,7 +43,7 @@ class Animezb(generic.NZBProvider):
 
         self.cache = AnimezbCache(self)
 
-        self.url = 'https://animezb.com/'
+        self.url = 'http://animezb.com/'
 
     def isEnabled(self):
         return self.enabled
